@@ -5,6 +5,6 @@ pylint
 
 
 --------------------------------- COMS CLASS IMPORTS ------------------------------------
-attr    #Enhanced classes (Install & More information https://www.attrs.org/en/stable/ )
+attr    #Enhanced classes (Install & Usage information https://www.attrs.org/en/stable/ )
 
 -----------------------------------------------------------------------------------------
