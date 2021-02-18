@@ -1,0 +1,4 @@
+dronekit
+dronekit_sitl
+numpy
+pylint
