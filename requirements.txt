@@ -2,9 +2,4 @@ dronekit
 dronekit_sitl
 numpy
 pylint
-
-
---------------------------------- COMS CLASS IMPORTS ------------------------------------
 attr    #Enhanced classes (Install & Usage information https://www.attrs.org/en/stable/ )
-
------------------------------------------------------------------------------------------
