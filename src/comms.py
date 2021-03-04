@@ -3,8 +3,8 @@ import attr
 
 
 @attr.s                                                       #Defines class as an attr type class
-class Coms():
-  '''Compartmentalizes coms functionality and scope'''
+class Comms():
+  '''Compartmentalizes comms functionality and scope'''
   configs = attr.ib()
   xbee_callback = attr.ib()
 
