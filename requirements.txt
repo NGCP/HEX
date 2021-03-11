@@ -3,3 +3,4 @@ dronekit_sitl
 numpy
 pylint
 attr    #Enhanced classes (Install & Usage information https://www.attrs.org/en/stable/ )
+pytest
