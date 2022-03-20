@@ -1,7 +1,6 @@
 from digi.xbee.devices import DigiMeshDevice
 #from pymavlink import mavutil
-from xbee import TransmitThread, ToMAC, ToGCS, Orientation, LatLng, ManualControl, Geofence, read_lock
-#import mavlink_msg_MAC
+from xbee import TransmitThread, ToMEA, ToGCS, Orientation, LatLng, ManualControl, Geofence, read_lock
 
 from enum import IntEnum
 import threading
@@ -62,7 +61,7 @@ class XBeeReceiver:
            which will run it in a loop for the lifetime of that object, by the start_decode_thread() method.'''
         try:
             data = self.data_queue.get_nowait()
-            self.decode_queue.put(ToMAC.deserialize(data))
+            self.decode_queue.put(ToMEA.deserialize(data))
         except queue.Empty:
             # If the packet buffer is empty, do nothing
             # The TransmitThread object will call this function in the next iteration of its loop,
