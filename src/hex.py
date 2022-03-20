@@ -1,4 +1,11 @@
 from dronekit import Vehicle
+#functions of the MEA
+#Step 1) we need to have a autopilot takeoff
+#Step 2) we need a standby or loiter function, maintains the current altitude
+#Step 3) we need a autopilot point a to b (when GCS say that MEA needs to go to home)
+#Step 4) we need a autopilot landing on home, set altitude to 0
+#Step 5) we need an override for the autopilot to manual
+#step 6) Payload integration function (secondary issue)
 
 class HEX(Vehicle):
   def __init__(self, *args):
