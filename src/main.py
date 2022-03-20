@@ -124,7 +124,7 @@ def get_devices(device):
 
 def main():
     # Set up communication devices
-    comm_port = "COM4"
+    comm_port = "COM4" #subject to change based on port in XCTU
     baud_rate = "9600"
 
     device = DigiMeshDevice(port=comm_port, baud_rate=baud_rate)
